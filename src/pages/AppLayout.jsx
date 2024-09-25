@@ -1,8 +1,15 @@
 import React from 'react'
-
+import { Outlet } from 'react-router-dom'
 const AppLayout = () => {
   return (
-    <div>AppLayout</div>
+    <>
+      <header>
+        <nav>
+          Navigagtion
+        </nav>
+      </header>
+      <Outlet/>
+    </>
   )
 }
 
