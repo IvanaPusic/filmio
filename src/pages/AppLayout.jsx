@@ -22,7 +22,7 @@ const AppLayout = () => {
   }
 
   useEffect(() => {
-    getAllItems();
+    // getAllItems();
   },[]);
   console.log(items)
   return (
