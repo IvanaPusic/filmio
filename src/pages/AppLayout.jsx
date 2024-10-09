@@ -26,14 +26,14 @@ const AppLayout = () => {
   },[]);
   console.log(items)
   return (
-    <>
+    <main className='bg-dark-blue h-screen'>
       <header>
         <nav>
-          Navigagtion
+          Navigation
         </nav>
       </header>
       <Outlet/>
-    </>
+    </main>
   )
 }
 

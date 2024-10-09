@@ -13,7 +13,7 @@ const Login = () => {
         <form>
           <input className='block w-full bg-transparent outline-none font-light border-b-2 placeholder-opacity-50 focus:border-b-white pb-4 text-white  focus:caret-accent border-violet-blue placeholder-white text-base leading-5' type="email" name="email" id="email" placeholder='Email address' />
           <input className='block w-full bg-transparent outline-none font-light border-b-2 placeholder-opacity-50 focus:border-b-white pb-4 pt-6 text-white  focus:caret-accent border-violet-blue placeholder-white text-base leading-5' type="password" name="password" id="password" placeholder='Password' />
-          <button type="submit" className='bg-accent w-full mt-6 text-white text-base text-center font-light leading-5 px-16 py-4 rounded-md'>Login to your account</button>
+          <button type="submit" className='bg-accent hover:bg-white hover:text-navy-blue transition-all ease-linear w-full mt-6 text-white text-base text-center font-light leading-5 px-16 py-4 rounded-md'>Login to your account</button>
         </form>
         <h5 className='pt-6 pb-8 text-center text-white mx-auto text-base leading-5 font-light'>Don't have an account? <Link to ="/signup" className='text-accent'>Sign up</Link> </h5>
       </div>
